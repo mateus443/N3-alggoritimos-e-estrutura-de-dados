@@ -19,14 +19,10 @@ A aplicação possui um menu interativo e valida as entradas para garantir que o
 
 ## Como Compilar e Executar
 ### Pré-requisitos:
-- Um compilador C instalado (como `gcc`).
+- Um compilador C 
 - Um terminal ou ambiente de desenvolvimento compatível com execução de código em C.
 
-### Passo a passo:
-1. **Baixe o arquivo do projeto:**
-   Certifique-se de que o arquivo `sistema_cadastro.c` esteja disponível em sua máquina.
-
-2. **Compile o código:**
+1. **Compile o código:**
    Abra o terminal e execute o seguinte comando:
    ```bash
    gcc sistema_cadastro.c -o sistema_cadastro
