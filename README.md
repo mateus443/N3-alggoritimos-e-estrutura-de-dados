@@ -16,47 +16,47 @@ Cada cadastro contém:
 
 O programa é interativo e apresenta um menu amigável ao usuário para facilitar a navegação entre as funcionalidades.
 
+### Funcionalidades
+- **Adicionar Cadastro**: O programa aloca dinamicamente um novo espaço de memória para um cadastro e permite ao usuário inserir os dados de uma nova pessoa.
+- **Listar Cadastros**: Exibe os cadastros armazenados até o momento. O programa percorre o array dinâmico e imprime as informações de cada pessoa.
+- **Deletar Cadastro**: Remove um cadastro específico pelo índice e libera a memória alocada para esse cadastro com a função `free()`.
+- **Gerenciamento de Memória**: O programa utiliza alocação dinâmica (usando `malloc` e `realloc`) para armazenar os cadastros e garante que a memória seja liberada corretamente ao deletar ou ao encerrar o programa.
+
 ---
 
 ## Como Compilar e Executar
 
 ### Passo a Passo
-1. **Acesse o site Online GDB ou outro compilador em C:
+
+1. **Compilação Local**
+   - Navegue até o diretório onde está o código e compile o programa com um compilador C:
+     
+2. **Executando o Programa**
+   - Após compilar, execute o programa:
   
-2. **Cole o código**:
-   - Copie o código fornecido abaixo e cole na área de edição do site.
+3. **Interaja com o Menu**
+   - O programa exibirá um menu com as opções de adicionar, listar, deletar cadastros ou sair. Use os números para navegar pelas opções.
 
-3. **Compile e Execute**:
-   - Clique no botão **"Run"** para compilar e executar o programa.
-
-4. **Interaja com o Menu**:
-   - Use os números do menu para navegar pelas opções e testar as funcionalidades do programa.
-
-Exemplo de Execução
+### Exemplo de Execução
 Abaixo está um exemplo visual do funcionamento do programa:
 
-Menu Inicial:
-
+**Menu Inicial**:
 === Sistema de Cadastro ===
-1. Adicionar Cadastro
-2. Listar Cadastros
-3. Deletar Cadastro
-4. Sair
-Escolha uma opcao: _
 
-Adicionar Cadastro:
+Adicionar Cadastro
+Listar Cadastros
+Deletar Cadastro
+Sair Escolha uma opcao: 1
+markdown
+Copiar código
 
-Informe o nome: João Silva
-Informe a idade: 25
-Informe o CPF (apenas números, 11 dígitos): 12345678901
-Cadastro adicionado com sucesso!
+**Adicionar Cadastro**:
+Informe o nome, exemplo: João Silva Informe a idade: 25 Informe o CPF (apenas números, 11 dígitos): 12345678901 Cadastro adicionado com sucesso!
 
-Listar Cadastros:
-
+**Listar Cadastros**:
 === Lista de Cadastros ===
-1. Nome: João Silva, Idade: 25, CPF: 12345678901
-   
-Deletar Cadastro:
 
-Informe o índice do cadastro a deletar: 1
-Cadastro removido com sucesso!
+Nome: João Silva, Idade: 25, CPF: 12345678901
+
+**Deletar Cadastro**:
+Informe o índice do cadastro a deletar: 1 Cadastro removido com sucesso!
